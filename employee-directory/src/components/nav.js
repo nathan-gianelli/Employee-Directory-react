@@ -1,14 +1,15 @@
 import React from "react"
 
-class Nav extends React.Component {
-    render() {
-        return (
-            <div className = "navbar">
-            123
-                <h1>Employee Directory</h1>
-            </div>
-        )
-    }
+function Nav() {
+    return (
+        <nav className = "navbar">
+        <div>
+            <h1 className = "nav-text">Employee Directory</h1>
+            <p className = "nav-text">Employees list</p>
+        </div>
+
+        </nav>
+    )
 }
 
 export default Nav;
