@@ -5,7 +5,7 @@ function Nav() {
         <nav className = "navbar">
         <div>
             <h1 className = "nav-text">Employee Directory</h1>
-            <p className = "nav-text">Employees list</p>
+            <p className = "nav-text">search for a employee</p>
         </div>
 
         </nav>
